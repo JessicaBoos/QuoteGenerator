@@ -3,16 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>AI QUOTES</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Indie+Flower&family=Lemon&family=Oswald:wght@200;300;400;500;600;700&family=Permanent+Marker&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Motivational quote generator</h1>
+    <h1>AI Motivational quote generator</h1>
+    <form class="container">
+      <input
+        id="input"
+        type="text"
+        placeholder="Enter your quote topic!"
+        autofocus
+        required
+        autocomplete="off"
+      />
+      <input id="button" type="submit" value="generate" />
+    </form>
+    <div id="quote" class="container">
+      "Do the difficult things while they are easy and do the great things while
+      they are small. A journey of a thousand miles must begin with a single
+      step."
+    </div>
 
-    <footer>
+    <footer class="container">
       This AI Project is coded by
-      <a href="https://github.com/JessicaBoos">Jessica Boos</a> and open-sourced
-      on <a href="https://github.com/JessicaBoos/QuoteGenerator">Github</a>.
+      <a href="https://github.com/JessicaBoos">Jessica Boos</a>, open-sourced on
+      <a href="https://github.com/JessicaBoos/QuoteGenerator">Github</a> and
+      hosted on <a href="https://soft-mandazi-e9dd6e.netlify.app">Netlify</a>.
     </footer>
     <script src="src/index.js"></script>
   </body>

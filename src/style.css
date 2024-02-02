@@ -1,0 +1,53 @@
+body {
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/400/original/joshua-woroniecki-3mXIZP6_6zY-unsplash.jpg?1706879287")
+    no-repeat;
+  background-size: cover;
+  background-color: black;
+  font-family: "Dosis", sans-serif;
+  color: white;
+}
+a {
+  color: #a162ae;
+}
+input {
+  font-family: "Dosis", sans-serif !important;
+  margin: 20px;
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.6) 0px 18px 36px -18px inset;
+  border-radius: 15px;
+}
+#input {
+  width: 700px;
+  padding: 10px;
+
+  border: none;
+  font-size: 20px;
+}
+#button {
+  width: 100px;
+  padding: 10px;
+
+  margin-left: 0;
+  font-size: 20px;
+  background-color: #a162ae;
+  color: white;
+  border: none;
+}
+#quote {
+  font-size: 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.container {
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+footer {
+  text-align: center;
+  max-width: 550px;
+}
