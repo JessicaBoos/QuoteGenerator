@@ -16,7 +16,7 @@ input {
     rgba(0, 0, 0, 0.6) 0px 18px 36px -18px inset;
   border-radius: 15px;
 }
-#input {
+#user-input {
   width: 700px;
   padding: 10px;
 

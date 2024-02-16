@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI QUOTES</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +18,7 @@
     <h1>AI Motivational quote generator</h1>
     <form id="quotegenerator" class="container">
       <input
-        id="input"
+        id="user-input"
         type="text"
         placeholder="Enter your quote topic!"
         autofocus
