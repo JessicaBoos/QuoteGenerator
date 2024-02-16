@@ -5,7 +5,6 @@ function displayQuote(response) {
     delay: 10,
     cursor: "",
   });
-  console.log("poem generated.");
 }
 
 function generateQuote(event) {
@@ -22,11 +21,7 @@ function generateQuote(event) {
     strings: "Generating poem...",
     autoStart: true,
     delay: 10,
-    cursor: "",
   });
-  console.log(`Generating poem...`);
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Conetxt: ${context}`);
 
   axios.get(APIurl).then(displayQuote);
 }
